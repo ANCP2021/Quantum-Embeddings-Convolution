@@ -3,7 +3,7 @@
 ## Flexible Representation of Quantum Images (FRQI)
 Implementation in file $``\textbf{\textit{FRQI.ipynb}}"$
 
-Compiles and coonverts color and position information of an image into a quantum state given the formula for classical image representation.
+Compiles and converts color and position information of an image into a quantum state given the formula for classical image representation.
 $$
 \ket{I(\theta)} = \frac{1}{2^n}\sum_{i=0}^{2^{2n}-1} (cos\theta_i\ket{0} + sin\theta_i\ket{1}) \otimes \ket{i}
 $$
@@ -16,6 +16,15 @@ System needs to first be put in full superposition via the Hadamard operation ex
 Values of $\theta$:
 - $0$ = $\textbf{black}$
 - $\frac{\pi}{2}$ = $\textbf{white}$
+
+## Novel Enhanced Quantum Repreentation (NEQR)
+Implementation in file $``\textbf{\textit{NEQR.ipynb}}"$
+
+Compared to FRQI, NEQR does not compile color by angle, but uses the basic state of quantum sequences to store color information encodings. NEQR stores grayscale and position information represented by
+$$
+\ket{I(\theta)} = \frac{1}{2^n}\sum_{y=0}^{{2^n}-1}\sum_{x=0}^{{2^n}-1} \otimes_{i=0}^{q-1} \ket{C^i_{yx}} \ket{yx}
+$$
+
 
 
 ## Referenes
