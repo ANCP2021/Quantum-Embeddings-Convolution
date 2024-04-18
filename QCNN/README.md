@@ -1,6 +1,6 @@
 # QCNN
 
-This implementation of a Quantum Convolution Neural Network (QCNN) is based off the work by Cong et. al [1] with the modeling of both convolutional layers and poling layers using IBM's Qiskit and quantum circuits. Example of classical convolutional neural network:
+This implementation of a Quantum Convolution Neural Network (QCNN) is based off the work by Cong et al. [1] with the modeling of both convolutional layers and poling layers using IBM's Qiskit and quantum circuits. Example of classical convolutional neural network:
 
 ![alt text](./CCNN.png)
 
