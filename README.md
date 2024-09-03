@@ -19,7 +19,7 @@ The ```Embeddings``` directory contains implementations of quantum image encodin
 The ```QCNN``` directory contains the implementation of a Quantum Convolutional Neural Network (QCNN) and includes:
 - ```QCNN.ipynb```: main implementation using IBM's Qiskit framework with training and testing on quantum data.
 - ```util.py```: utility functions for data generation and preprocessing.
--```11_qcnn_initial_point.json```: pretrained weights for initializing the QCNN
+- ```11_qcnn_initial_point.json```: pretrained weights for initializing the QCNN
 
 ## Poster
 ![alt text](./presentation.png)
