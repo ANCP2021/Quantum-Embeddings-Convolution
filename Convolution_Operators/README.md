@@ -8,8 +8,3 @@ The im2col algorithm relates to matrix multiplication as it transforms the convo
 
 ## Fast Fourier Transform (FFT)
 This convolution method falls under the transform methodology where both the input image and the kernel are transformed into the frequency domain using the Fourier transform. Convolution is carried out by performing element-wise multiplication in this domain, exploiting convolution theorem.
-
-- Convolution Theorem: Convolution in the spatial domain corresponds to multiplication in the frequency domain.
-
-
-## References
